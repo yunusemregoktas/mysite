@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def urun_list(request):
+    return render(request, 'urun/urun_list.html', {})
